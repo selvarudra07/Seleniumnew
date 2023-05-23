@@ -32,7 +32,7 @@ WebElement promptbox=driver.findElement(By.xpath("//*[contains(text(),'Prompt')]
 promptbox.click();
 Alert prompt=driver.switchTo().alert();
 prompt.sendKeys("yes");
-prompt.dismiss();
+prompt.accept();
 
 	}
 
